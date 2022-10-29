@@ -1,0 +1,25 @@
+{
+  "name": "async-landing",
+  "version": "1.0.0",
+  "description": "landing page creado con el profesor GNDX de platzi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusBruDiaz/async-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusBruDiaz/async-landing/issues"
+  },
+  "homepage": "https://github.com/MarcusBruDiaz/async-landing#readme",
+  "type": "module",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.2.10"
+  }
+}
