@@ -17,7 +17,7 @@ module.exports={
     output: {
         path: path.resolve(__dirname, 'dist'),   //path para traer resolve, que nos va a servir donde se encuentro nuetrp proyecto en que directorio y poderlo utilziar de esta forma no tener que tener iun problema con el nombre de la caprta dponde estou posicionado. con esto garantizamos que siempre va a encontrar la carpeta donde se va a guardar nuestro codifo optimizsado con webpack.
         filename : '[name].[contenthash].js',// ahora ponemos un nombre al resultandte del js que se va a unificar 
-        //assetsModuleFilename: 'assets/images/[hash][ext][query]'
+        assetModuleFilename: 'assets/images/[hash][ext][query]'
     },  // estrablecer a donde va a enviar lo que va a preparar webpack,para esto webpack ya tiene una ruta predefinida para esto que es la carpeta dist y en el archivo main.js
     
 
